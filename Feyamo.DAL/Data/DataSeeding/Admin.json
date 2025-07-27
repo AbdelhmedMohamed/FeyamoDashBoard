@@ -1,0 +1,27 @@
+[
+  {
+
+    "IsAgree": true,
+    "FName": "Abdelhmed",
+    "LName": "Mohamed",
+    "UserName": "Body",
+    "NormalizedUserName": "BODY",
+    "Email": "Body@gmail.com",
+    "NormalizedEmail": "BODY@GMAIL.COM",
+    "EmailConfirmed": false,
+    "PasswordHash": "AQAAAAEAACcQAAAAEPnKaOlszFpHJpJAJg+Vjkxovab3gxKXG2B5zDa8mkdOCPZUg2Y8c7iVxGPflotoMQ==",
+    "SecurityStamp": "TTWVY46OGRAF3AI73RK7RXLX5B5Z67PZ",
+    "ConcurrencyStamp": "7d2c58258df3",
+    "PhoneNumber": null,
+    "PhoneNumberConfirmed": false,
+    "TwoFactorEnabled": false,
+    "LockoutEnd": null,
+    "LockoutEnabled": true,
+    "AccessFailedCount": 0
+
+  }
+
+]
+
+
+

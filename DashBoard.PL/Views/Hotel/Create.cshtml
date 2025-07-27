@@ -1,0 +1,56 @@
+﻿
+@model HotelViewModel
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Hotel</h1>
+
+<br />
+<br />
+<br />
+
+<form asp-action="Create" enctype="multipart/form-data">
+
+    <div>
+        <label class="col-form-label" asp-for="Code"></label>
+        <input type="number" asp-for="Code" class="form-control" />
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div>
+        <label class="col-form-label" asp-for="Name"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label class="col-form-label" asp-for="Price"></label>
+        <input type="number" asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+
+    <div>
+        <label class="col-form-label" asp-for="ImagesName"></label>
+        <input class="form-control-file" asp-for="ImagesName" />
+        <span asp-validation-for="ImagesName" class="text-danger"></span>
+    </div>
+   
+
+
+
+    <input type="submit" value="Create" class="btn btn-primary mt-5" multiple />
+    <a asp-action="Index" class="btn btn-light mt-5" > Back To List </a>
+
+
+
+</form>
+
+
+
+@section validateSection
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -22,7 +22,7 @@ namespace DashBoard.PL.Controllers
         #region SignUp
 
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public IActionResult SignUp()
         {
             return View();
@@ -30,7 +30,7 @@ namespace DashBoard.PL.Controllers
 
 
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public  async Task<IActionResult> SignUp(SignUpViewModel viewModel)
         {
             if (ModelState.IsValid)
@@ -98,7 +98,7 @@ namespace DashBoard.PL.Controllers
 
 
 
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> SignOut()
         {
             await _signInManager.SignOutAsync();

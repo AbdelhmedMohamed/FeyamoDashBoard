@@ -11,15 +11,18 @@
 			<input class="text email" asp-for="Email" placeholder="Email" required="">
 			<input class="text" asp-for="Password" placeholder="Password" required="">
 			
-			<div class="wthree-text">
-				@* <label class="anim">
+			@* <div class="wthree-text m-2">
+				<label class="anim">
 					<input asp-for="RememberMe" class="checkbox" required="">
 					<span>Remember Me </span>
-				</label> *@
+				</label>
 				<div class="clear"> </div>
-			</div>
+			</div> *@
 			<input style="background: #999;" type="submit" value="SIGNIN">
+				
 		</form>
+
+		<p>Don't have an Account? <a asp-controller="Account" asp-action="SignUp"> Regester Now!</a></p>
 		
 	</div>
 </div>

@@ -1,8 +1,19 @@
-Feyamo Dashboard
-An admin dashboard for managing hotels, tourist places, and related content. This project was built using the ASP.NET MVC architecture as a backend practice and will be extended in the future with an API and Angular frontend.
+Feyamo Project
+
+Feyamo is a full-stack tourism management system designed to manage and display hotels and tourist attractions in Fayoum, Egypt.
+The project is divided into three main parts:
+
+🧩 Feyamo Dashboard (ASP.NET MVC) – an admin panel for managing hotels, tourist places, images, and prices.
+
+⚙️ Feyamo API (ASP.NET Web API) – provides structured and secure endpoints to serve data to the frontend.
+
+💻 Feyamo Angular App (coming soon) – a user-facing single-page application for browsing and booking hotels and attractions.
 
 🔧 Technologies Used
-ASP.NET MVC (Model-View-Controller)
+
+ASP.NET MVC
+
+ASP.NET Web API
 
 C#
 
@@ -14,27 +25,26 @@ HTML, CSS, JavaScript
 
 Bootstrap
 
+JSON & RESTful services
+
 📌 Features
-Add / Update / Delete hotels and tourist places.
 
-Basic validation and form handling.
+✅ Admin Dashboard (MVC)
 
-Organized architecture using the MVC pattern.
+Add, edit, and delete hotels and tourist attractions.
 
-🚀 Future Plans
-Build a Web API to expose data to clients.
+Manage images, descriptions, and prices.
 
-Connect an Angular frontend for the user interface.
+Basic input validation and form handling.
 
-Add authentication/authorization for admin roles.
+Follows clean architecture with MVC pattern.
 
-Deploy online for demo access.
+✅ Web API
 
-📁 How to Run
-Clone the repository.
+Provides endpoints for hotels and tourist places.
 
-Open the solution in Visual Studio.
+Uses Entity Framework for data access.
 
-Set the proper database connection string in appsettings.json.
+Supports JSON responses for integration with frontend.
 
-Run the project and access the dashboard from the browser.
+Organized layers for scalability and maintainability (DAL, BLL, API).
